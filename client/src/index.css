@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    @apply bg-slate-50 dark:bg-dark-bg text-slate-800 dark:text-dark-heading font-sans;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-slate-100 dark:bg-dark-card; }
+  ::-webkit-scrollbar-thumb { @apply bg-slate-300 dark:bg-dark-border rounded-full; }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-dark-card border border-slate-200 dark:border-dark-border rounded-2xl shadow-sm;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-medium text-sm transition-all duration-150 flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-slate-100 hover:bg-slate-200 dark:bg-dark-border dark:hover:bg-slate-600 text-slate-700 dark:text-dark-heading px-4 py-2 rounded-lg font-medium text-sm transition-all duration-150 flex items-center gap-2;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg font-medium text-sm transition-all;
+  }
+
+  .input {
+    @apply w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-dark-border bg-white dark:bg-dark-bg text-slate-800 dark:text-dark-heading placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 transition;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150 text-slate-600 dark:text-dark-text hover:bg-slate-100 dark:hover:bg-dark-border hover:text-slate-900 dark:hover:text-dark-heading;
+  }
+
+  .sidebar-link.active {
+    @apply bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400;
+  }
+}
