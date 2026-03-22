@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Plus, Users, Briefcase } from "lucide-react";
 import PageWrapper from "../../components/layout/PageWrapper";
-import { Modal, EmptyState, PageLoader, Avatar, Badge } from "../../components/ui";
+import { Modal, EmptyState, PageLoader, Avatar } from "../../components/ui";
 import useFetch from "../../hooks/useFetch";
 import api from "../../utils/api";
 import { statusColor } from "../../utils/helpers";

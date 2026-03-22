@@ -3,7 +3,7 @@ import { PageLoader, Badge } from "../../components/ui";
 import useFetch from "../../hooks/useFetch";
 import { formatDate, statusColor, priorityColor } from "../../utils/helpers";
 import { CalendarDays } from "lucide-react";
-import { differenceInDays, startOfMonth, endOfMonth, eachDayOfInterval, format, isToday, isWithinInterval, parseISO } from "date-fns";
+import { differenceInDays, startOfMonth, endOfMonth, eachDayOfInterval, format, isToday, parseISO } from "date-fns";
 
 const TimelinePage = () => {
   const { data: projects, loading } = useFetch("/projects");

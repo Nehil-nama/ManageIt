@@ -2,7 +2,7 @@ import { FolderKanban, CheckSquare, Users, AlertCircle } from "lucide-react";
 import { StatCard, PageLoader, Avatar, Badge } from "../../components/ui";
 import PageWrapper from "../../components/layout/PageWrapper";
 import useFetch from "../../hooks/useFetch";
-import { formatDate, priorityColor, statusColor } from "../../utils/helpers";
+import { formatDate, statusColor } from "../../utils/helpers";
 import { Link } from "react-router-dom";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend

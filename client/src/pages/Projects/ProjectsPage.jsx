@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Plus, FolderKanban, Calendar, Users } from "lucide-react";
+import { Plus, FolderKanban, Calendar } from "lucide-react";
 import PageWrapper from "../../components/layout/PageWrapper";
 import { Badge, Modal, EmptyState, PageLoader, Avatar } from "../../components/ui";
 import useFetch from "../../hooks/useFetch";
