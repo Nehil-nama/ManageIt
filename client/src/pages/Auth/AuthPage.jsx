@@ -40,9 +40,9 @@ const AuthPage = ({ mode = "login" }) => {
           <div className="w-12 h-12 bg-primary-600 rounded-2xl flex items-center justify-center mb-3 shadow-lg">
             <Zap size={24} className="text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-dark-heading">WorkPulse</h1>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-dark-heading">ManageIt</h1>
           <p className="text-slate-500 dark:text-dark-text text-sm mt-1">
-            {isLogin ? "Sign in to your workspace" : "Create your workspace"}
+            {isLogin ? "Sign in to your ManageIt workspace" : "Create your ManageIt workspace"}
           </p>
         </div>
 

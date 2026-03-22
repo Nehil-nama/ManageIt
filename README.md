@@ -1,4 +1,4 @@
-# 🚀 WorkPulse — Team & Project Management App
+# 🚀 ManageIt — Team & Project Management App
 
 A full-stack project management platform built with React.js, Node.js, MongoDB, and Tailwind CSS.
 
@@ -7,7 +7,7 @@ A full-stack project management platform built with React.js, Node.js, MongoDB, 
 ## 📁 Project Structure
 
 ```
-workpulse/
+ManageIt/
 ├── client/                  # React.js Frontend
 │   ├── public/
 │   └── src/

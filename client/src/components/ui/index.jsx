@@ -1,10 +1,10 @@
+import { getInitials, avatarColor } from "../../utils/helpers";
 // Badge
 export const Badge = ({ label, className = "" }) => (
   <span className={`badge ${className}`}>{label}</span>
 );
 
 // Avatar
-import { getInitials, avatarColor } from "../../utils/helpers";
 export const Avatar = ({ name = "", size = "sm" }) => {
   const sizes = { sm: "w-7 h-7 text-xs", md: "w-9 h-9 text-sm", lg: "w-12 h-12 text-base" };
   return (

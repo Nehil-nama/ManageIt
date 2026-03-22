@@ -1,7 +1,7 @@
 {
-  "name": "workpulse-server",
+  "name": "manageit-server",
   "version": "1.0.0",
-  "description": "WorkPulse backend API - Node.js + Express + MongoDB",
+  "description": "ManageIt backend API - Node.js + Express + MongoDB",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",

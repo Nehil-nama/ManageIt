@@ -30,7 +30,7 @@ const Sidebar = () => {
         <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
           <Zap size={16} className="text-white" />
         </div>
-        <span className="font-bold text-lg text-slate-900 dark:text-dark-heading">WorkPulse</span>
+        <span className="font-bold text-lg text-slate-900 dark:text-dark-heading">ManageIt</span>
       </div>
 
       {/* Nav */}
